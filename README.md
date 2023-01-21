@@ -1,6 +1,6 @@
 # Whisper-Live-Translator
 
-Live translate audio from an input audio device
+An incredibly messy whisper interface to live translate audio from an input audio device
 
 ## Instructions
 
