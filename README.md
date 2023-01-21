@@ -1,19 +1,20 @@
 # Whisper-Live-Translator
 
 An incredibly messy whisper interface to live translate audio from an input audio device
+Requires a CUDA compatible GPU
 
 ## Instructions
 
-1) Install OpenAI's Whisper through pip: ```pip install git+https://github.com/openai/whisper.git```
-2) Push your audio to translate through an audio device (an easy solution is something like this: https://vb-audio.com/Cable/)
-3) Make sure the settings in whisperlive.py are correct(IMPORTANT), and run it
-4) Select the audio device your audio to translate is coming through from the dropdown
-5) Click start to start translating
-6) You can also toggle the interface durign translation, which will hide the options and make the window semi-transparent
+1) Install pytorch with cuda support
+2) Install OpenAI's Whisper through pip: ```pip install openai-whisper```
+3) Push your audio to translate through an audio device (an easy solution is something like this: https://vb-audio.com/Cable/)
+4) Make sure the settings in whisperlive.py are correct(IMPORTANT), and run it
+5) Select the audio device your audio to translate is coming through from the dropdown
+6) Click start to start translating
+7) You can also toggle the interface durign translation, which will hide the options and make the window semi-transparent
 
 ## Additional Info
-The translation process takes about 4-8 seconds depending on your hardware/model, 
-  so if you use the "Listen" option the audio will be "Seconds/Sample" + 4-8 seconds ahead of the translation
+The translation process takes about 4-8 seconds depending on your hardware/model, so if you use the "Listen" option the audio will be "Seconds/Sample" + 4-8 seconds ahead of the translation
 
 If you want to use this to watch a livestream, I recommend opening 2 copies of the video.
 One just to get the audio to translate, and the other to watch and listen to, on a 6ish second delay.
@@ -25,5 +26,5 @@ The "Sound Mixer Options" setting in windows will let you easily set the output 
 Only tested in windows, but if you use linux you should be able to figure it out pretty easily
 
 ## Setup help
-Python version must be >=3.7,<3.11  
+Python version must be >=3.7,<3.11  (Only tested on  
 You may need to install additional packages like pyaudio.
