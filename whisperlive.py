@@ -11,7 +11,7 @@ model_name = "medium" #tiny, base, small(3.2+ GB vram), medium(6+ GB vram), larg
 language = "Japanese" #language of the audio to translate
 
 with torch.inference_mode():
-    model = torch.compile(whisper.load_model(model_name))
+    model = whisper.load_model(model_name)
 
 def ProcessAudio(mel):
     with torch.inference_mode():
