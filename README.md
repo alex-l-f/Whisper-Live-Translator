@@ -14,7 +14,7 @@ Requires a CUDA compatible GPU
 7) You can also toggle the interface during translation, which will hide the options and make the window semi-transparent
 
 ## Additional Info
-The translation process takes about 4-8 seconds depending on your hardware/model, so if you use the "Listen" option the audio will be "Seconds/Sample" + 4-8 seconds ahead of the translation
+The translation process takes about 4-8 seconds depending on your hardware/model, so if you use the "Listen" option the audio will be "Seconds/Sample" + 4-8 seconds ahead of the translation. You can use this to listen to the audio device directly, but it's not recommended because of the delay.
 
 If you want to use this to watch a livestream, I recommend opening 2 copies of the video.
 One just to get the audio to translate, and the other to watch and listen to, on a 6ish second delay. For a youtube live stream, you could use two seperate browsers for example.
