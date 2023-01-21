@@ -11,7 +11,7 @@ Requires a CUDA compatible GPU
 4) Make sure the settings in whisperlive.py are correct(IMPORTANT), and run it
 5) Select the audio device your audio to translate is coming through from the dropdown
 6) Click start to start translating
-7) You can also toggle the interface durign translation, which will hide the options and make the window semi-transparent
+7) You can also toggle the interface during translation, which will hide the options and make the window semi-transparent
 
 ## Additional Info
 The translation process takes about 4-8 seconds depending on your hardware/model, so if you use the "Listen" option the audio will be "Seconds/Sample" + 4-8 seconds ahead of the translation
