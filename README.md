@@ -4,7 +4,7 @@ An incredibly messy whisper interface to live translate audio from an input audi
 
 ## Instructions
 
-1) Install OpenAIs Whisper with pip: pip install git+https://github.com/openai/whisper.git 
+1) Install OpenAIs Whisper with pip: '''pip install git+https://github.com/openai/whisper.git'''
 2) Push your audio to translate through an audio device (an easy solution is something like this: https://vb-audio.com/Cable/)
 3) Make sure the settings in whisperlive.py are correct(IMPORTANT), and run the application
 4) Select the audio device your audio to translate is coming through from the dropdown
