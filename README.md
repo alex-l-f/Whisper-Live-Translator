@@ -24,6 +24,6 @@ The "Sound Mixer Options" setting in windows will let you easily set the output 
 Only tested in windows, but if you use linux you should be able to figure it out pretty easily
 
 ## Setup help
-Python version must be >=3.7,<3.11  (Only tested with 3.9 and 3.10.8)
+Python version must be >=3.7,<3.11  (Only tested with 3.9 and 3.10.8)  
 You may need to install additional packages like pyaudio.  
 If you get the error ```RuntimeError: "slow_conv2d_cpu" not implemented for 'Half'``` then pytorch isn't using your GPU for whatever reason. Might be the wrong version of pytorch, old drivers, many things.
