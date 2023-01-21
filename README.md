@@ -5,7 +5,7 @@ Requires a CUDA compatible GPU
 
 ## Instructions
 
-1) Install pytorch with cuda support
+1) Install pytorch with cuda support through pip
 2) Install OpenAI's Whisper through pip: ```pip install openai-whisper```
 3) Push your audio to translate through an audio device (an easy solution is something like this: https://vb-audio.com/Cable/)
 4) Make sure the settings in whisperlive.py are correct(IMPORTANT), and run it
