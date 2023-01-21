@@ -25,5 +25,5 @@ The "Sound Mixer Options" setting in windows will let you easily set the output 
 Only tested in windows, but if you use linux you should be able to figure it out pretty easily
 
 ## Setup help
-Python version must be >=3.7,<3.11
+Python version must be >=3.7,<3.11  
 You may need to install additional packages like pyaudio.
