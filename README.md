@@ -21,7 +21,9 @@ One just to get the audio to translate, and the other to watch and listen to, on
 
 The "Sound Mixer Options" setting in windows will let you easily set the output device, such as a virtual audio cable, for a given program
 
-Only tested in windows, but if you use linux you should be able to figure it out pretty easily
+Only tested in windows, but if you use linux you should be able to figure it out pretty easily  
+
+If you don't know how to use python you are probably wasting your time trying to run this
 
 ## Setup help
 Python version must be >=3.7,<3.11  (Only tested with 3.9 and 3.10.8)  
