@@ -16,8 +16,8 @@ The translation process takes about 5-8 seconds depending on your hardware/model
   so if you use the "Listen" option the audio will be "Seconds/Sample" + 4-8 seconds ahead of the translation
 
 If you want to use this to watch a livestream, I recommend opening 2 copies of the video.
-  One just to get the audio to translate, and the other to watch and listen to, on a 6ish second delay
-  For a youtube stream, you could use two seperate browsers for example.
+One just to get the audio to translate, and the other to watch and listen to, on a 6ish second delay
+For a youtube stream, you could use two seperate browsers for example.
 
 The "Sound Mixer Options" setting in windows will let you easily set the output device, such as a virtual audio cable, for a given program
 
